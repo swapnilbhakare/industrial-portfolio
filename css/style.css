@@ -535,3 +535,87 @@ section.grow .container .right p {
   background-repeat: no-repeat;
   margin: 4px;
 }
+section.pricing .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #f2f2fe;
+}
+section.pricing .container .center-heading {
+  margin: 2rem auto;
+  margin-top: 4rem;
+  text-align: center;
+}
+.center-heading h1 {
+  font-weight: 200;
+  font-size: 1.7rem;
+}
+.center-heading p {
+  text-align: center;
+  margin: 1rem 30rem;
+  color: var(--dark-gray);
+}
+section.pricing .cards .card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .cards .card-wrapper .card {
+  height: 450px;
+  width: 350px;
+  background: #ffffff;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 0.5rem;
+  margin-bottom: 2rem;
+}
+.container .cards .card-wrapper .card h3 {
+  padding: 15px;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.container .cards .card-wrapper .card .price {
+  background: #8850e2;
+  color: white;
+  border-radius: 20px;
+}
+.container .cards .card-wrapper .card .price.change-color {
+  background: var(--primary);
+}
+
+.card-wrapper .card .price h1 {
+  font-weight: 200;
+  text-align: center;
+  padding: 0.4rem 4rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.card-wrapper .card .price h1 span {
+  font-size: 2rem;
+}
+
+.card-wrapper .card p span {
+  display: block;
+  padding: 5px;
+}
+.card-wrapper .card h1 span.monthly {
+  font-size: 1rem;
+}
+.card-wrapper .card p span.strike {
+  text-decoration: line-through;
+}
+.card-wrapper .card a {
+  display: inline-block;
+  padding: 0.6rem 1.8rem;
+  background: #8548e7;
+  color: white;
+  margin: 15px 0;
+  border-radius: 30px;
+  transition: var(--transition);
+}
+.card-wrapper .card a:hover {
+  background: var(--primary);
+}
